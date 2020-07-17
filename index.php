@@ -17,6 +17,7 @@ session_start();
 
 <?php include('Vista/nav.php'); ?>
 <?php include('Vista/carrusel.php'); ?>
+<?php include('Vista/grid.php'); ?>
 <?php include('Vista/footer.php'); ?>
   
 
