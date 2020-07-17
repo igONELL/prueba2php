@@ -1,9 +1,4 @@
 <?php 
-
-session_start();
-
-
-
 include("conn_bd.php");
 include("../Modelo/Cliente.php");
 
@@ -34,9 +29,9 @@ if (isset($_POST['user']) && isset($_POST['pass'] )) {
         $_SESSION ["usuario"] = serialize ($cliente);
         echo "sesion iniciada";
     }else{
-        echo "Usuario y/o contraseña incorrecto";
+        include('../Vista/LogIncorrecto.php');
     }
-
+    
 }else{
-	echo "datos incorrectos";
+	include('../Vista/Login.php');
 }

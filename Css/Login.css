@@ -82,7 +82,7 @@ input:placeholder-shown  + label {
           transform: translateY(15px);
 }
 
-.h1 {
+.h1{
   color: #fff;
   opacity: 0.8;
   font-size: 20px;

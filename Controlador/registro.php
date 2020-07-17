@@ -10,8 +10,6 @@ include("../Modelo/Cliente.php");
 
 if ( isset($_POST['phone']) && isset($_POST['user']) && isset($_POST['pass'] )) {
 
-
-
 	$phone = $_POST['phone']; 
 	$user = $_POST['user']; 
 	$pass = $_POST['pass'];

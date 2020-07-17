@@ -1,9 +1,8 @@
-<?php
+<?php 
 
-session_start();
+session_start(); 
 
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,8 +23,8 @@ session_start();
 
 <div class="login-wrapper">
   <div class="login-left">
-    <img src="../Img/1.png">
-    <div class="h1">USUARIO Y/O CONTRASEÑA INCORRECTA</div>
+    <a href="Registro.php"><img src="../Img/1.png"></a>
+    <div class ="h1">REGISTRO INCORRECTO VUELVE A INTENTAR!</div>
   </div>
   
 </body>
