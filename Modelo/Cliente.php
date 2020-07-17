@@ -1,5 +1,6 @@
 <?php 
 
+
 class Cliente {
     private int $phone;
     private string $nombre;

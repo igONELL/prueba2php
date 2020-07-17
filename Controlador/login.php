@@ -1,19 +1,16 @@
 <?php 
+
 include("conn_bd.php");
 include("../Modelo/Cliente.php");
 
 
 if (isset($_POST['user']) && isset($_POST['pass'] )) {
-
-
  
+   
 	$user = $_POST['user']; 
 	$pass = $_POST['pass'];
 	
 	$pre = $conex->prepare("SELECT phone from cliente  where nombre = ? and pass = ? limit 1");
-
-    //(phone) where nombre = ? and pass = ? limit 1
-
 
     $pre->bind_param("ss",$user,$pass);
     

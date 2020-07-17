@@ -1,7 +1,5 @@
 <?php 
 
-session_start();
-
 
 include("conn_bd.php");
 include("../Modelo/Cliente.php");
