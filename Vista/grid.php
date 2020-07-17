@@ -14,7 +14,7 @@
       One of three columns
     </div>
     <div class="col-sm">
-    <img src="Img/seoul3.jpg" alt="..." class="img-thumbnail">s
+    <img src="Img/5.png" alt="..." class="img-thumbnail">s
     </div>
     <div class="col-sm">
     <img src="Img/tumblr_mswsnxpGEN1s4yvx4o1_1280.jpg" alt="..." class="img-thumbnail">
