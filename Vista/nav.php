@@ -9,17 +9,25 @@
 </head>
 <body>
 
-<ul class="nav justify-content-end navbar-dark bg-dark">
-    <li class="nav-item">
-    <a class="nav-link" href="#">Login</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Registrar</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">FIXED GEAR</a>
-  </li>
-</ul>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">FIXED GEAR</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Vista/Registro.php">Registrarse <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Vista/Login.php">Login</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      Navbar text with an inline element
+    </span>
+  </div>
+</nav>
 
 </body>
 

@@ -6,10 +6,15 @@
     <title>Document</title>
 </head>
 <body>
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand">Navbar</a>
+    <span class="navbar-text">
+      Navbar text with an inline element
+    </span>
   </div>
+</nav>
+
+
 </nav>
 </body>
 </html>
