@@ -108,6 +108,14 @@ input:placeholder-shown  + label {
   padding-bottom: 15px;
 }
 
+.h3 {
+  color: #000;
+  font-size: 16px;
+  letter-spacing: -0.00933333em;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
 .login-wrapper {
   width: 800px;
   height: 440px;
