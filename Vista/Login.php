@@ -31,11 +31,16 @@ session_start();
     <div class="h2">Logeate</div>
 
     <div class="form-group">
-      <input type="text" name ="user" id="Email" placeholder="Usuario">
+      <input type="tel" name ="phone" id="phone" placeholder="Telefono">
+      <label for="phone">Telefono</label>    
+    </div>
+
+    <div class="form-group">
+      <input type="text" name ="user" id="user" placeholder="Usuario">
       <label for="Email">Usuario</label>    
     </div>
     <div class="form-group">
-      <input type="password" name ="pass" id="Password" placeholder="contraseña">
+      <input type="password" name ="pass" id="password" placeholder="contraseña">
       <label for="Password">Contraseña</label>    
     </div>
     <div class="button-area">

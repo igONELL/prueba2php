@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-session_start(); 
+session_start();
 
 ?>
 
@@ -14,7 +14,7 @@ session_start();
   <title>FIXED GEAR</title>
 </head>
 <body>
-  
+
 
 
 
@@ -33,23 +33,23 @@ session_start();
       <input type="text" name ="id" placeholder="Carbono DOSNUEVE" disabled>
     </div>
     <div class="form-group">
-      <input type="text" name ="precio" placeholder="Valor $500.000" disabled>    
+      <input type="text" name ="precio" placeholder="Valor $500.000" disabled>
     </div>
     <div class="form-group">
-      <input type="number" name ="cantidad"  placeholder="Cantidad">  
+      <input type="number" name ="cantidad"  min = "0" max = "10" value = "0" placeholder="Cantidad">
     </div>
     <div class="form-group">
-     <label class="h3"><input type="checkbox" name ="nombre" id = "Email"> Agregar al carro </label>
+     <label class="h3"><input type="checkbox" name ="name" id = "Email"> Agregar al carro </label>
     </div>
-    
+
     <div class="button-area">
 
     <input type="submit" value = "Comprar">
-
+<form action="index.php" method="POST">
     <input type="submit" value = "Seguir comprando">
-
+    </form>
     </div>
-  
+
   </div>
   </form>
 </div>
@@ -60,11 +60,13 @@ var openLoginRight = document.querySelector('.h1');
 var loginWrapper = document.querySelector('.login-wrapper');
 
 openLoginRight.addEventListener('click', function(){
-  loginWrapper.classList.toggle('open'); 
+  loginWrapper.classList.toggle('open');
 });
 
 </script>
 
 </body>
 </html>
+
+
 

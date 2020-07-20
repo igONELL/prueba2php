@@ -28,7 +28,6 @@ if (isset($_POST['user']) && isset($_POST['pass'] )) {
         $_SESSION ["usuario"] = serialize ($cliente);
         echo "sesion iniciada";
     }else{
-        include('../Vista/LogIncorrecto.php');
     }
     
 }else{

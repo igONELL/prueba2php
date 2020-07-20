@@ -13,19 +13,19 @@
   <div class="row">
     <div class="col-sm">
     <img src="Img/seoul3.jpg" alt="..." class="img-thumbnail">
-    <p>Frame Carbono DOSNUEVE</p>
-    
+    <form action="Vista/Comprar.php" method="POST">
+    <p>Frame Carbono DOSNUEVE</p>    
     <p>Precio $500.000</p>
-      <input type="button" name = "comprar" value="Agregar al carro">
+    <label><button>Agregar al carro</button></label>
+    </form>
     </div>
 
     <div class="col-sm">
     <img src="Img/tumblr_mswsnxpGEN1s4yvx4o1_1280.jpg" alt="..." class="img-thumbnail">
+    <form action="Vista/Comprar2.php" method="POST">
       <p>Frame Clasico DOSNUEVE</p>
-    
       <p>Precio $500.000</p>
-      <form method="GET" action="Vista/Comprar2.php">
-      <input type="button" name = "comprar" value="Agregar al carro" > 
+      <label><button>Agregar al carro</button></label>
       </form>
     </div>
   </div>
